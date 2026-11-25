@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" width="1280" height="420">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B0C10" />
+      <stop offset="50%" stop-color="#0E1017" />
+      <stop offset="100%" stop-color="#0B0C10" />
+    </linearGradient>
+    <radialGradient id="indigoGlow" cx="28%" cy="30%" r="48%">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.26" />
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="cyanGlow" cx="76%" cy="34%" r="44%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.20" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="eqLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6366F1" />
+      <stop offset="55%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+    <linearGradient id="eqArea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.30" />
+      <stop offset="65%" stop-color="#38BDF8" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#0B0C10" stop-opacity="0" />
+    </linearGradient>
+    <pattern id="gridPattern" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#1E2333" stroke-width="1" opacity="0.45" />
+    </pattern>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="1280" height="420" rx="18" fill="url(#bgGrad)" />
+  <rect width="1280" height="420" rx="18" fill="url(#gridPattern)" opacity="0.65" />
+  <rect width="1280" height="420" rx="18" fill="url(#indigoGlow)" />
+  <rect width="1280" height="420" rx="18" fill="url(#cyanGlow)" />
+  <rect x="1" y="1" width="1278" height="418" rx="17" fill="none" stroke="#222736" stroke-width="1.5" />
+
+  <!-- Subtle Background Equalizer Wave -->
+  <path d="M 60 320 C 145 318, 200 295, 290 278 C 380 260, 445 272, 535 238 C 625 204, 680 182, 765 170 C 855 158, 920 194, 1010 220 C 1095 245, 1155 256, 1220 264 L 1220 385 L 60 385 Z"
+        fill="url(#eqArea)" />
+  <path d="M 60 320 C 145 318, 200 295, 290 278 C 380 260, 445 272, 535 238 C 625 204, 680 182, 765 170 C 855 158, 920 194, 1010 220 C 1095 245, 1155 256, 1220 264"
+        fill="none" stroke="url(#eqLine)" stroke-width="3" stroke-linecap="round" opacity="0.9" />
+
+  <!-- Equalizer Nodes -->
+  <g fill="#13161F" stroke="#38BDF8" stroke-width="2.2">
+    <circle cx="170" cy="304" r="5" />
+    <circle cx="290" cy="278" r="5" />
+    <circle cx="415" cy="264" r="5" />
+    <circle cx="535" cy="238" r="5" />
+    <circle cx="655" cy="192" r="5" />
+    <circle cx="765" cy="170" r="5.5" stroke="#10B981" />
+    <circle cx="885" cy="184" r="5" />
+    <circle cx="1010" cy="220" r="5" />
+    <circle cx="1130" cy="252" r="5" />
+  </g>
+
+  <!-- Top Center Status Badge -->
+  <g transform="translate(500, 48)">
+    <rect width="280" height="32" rx="16" fill="#13161F" stroke="#2A3147" stroke-width="1" />
+    <circle cx="22" cy="16" r="5" fill="#10B981" />
+    <text x="38" y="21" fill="#A5B4FC" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, sans-serif" font-size="12.5" font-weight="700" letter-spacing="1.4">
+      .NET 8 · ZERO FPS OVERHEAD
+    </text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="640" y="154" text-anchor="middle" fill="#F3F4F6" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, sans-serif" font-size="60" font-weight="800" letter-spacing="3.5">
+    GAMING SHORTCUTS
+  </text>
+
+  <!-- Subtitle -->
+  <text x="640" y="198" text-anchor="middle" fill="#38BDF8" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="700" letter-spacing="4.2">
+    CONTROL HUB  ·  DISPLAY  ·  AUDIO  ·  SYSTEM
+  </text>
+
+  <!-- Bottom Feature Pills -->
+  <g transform="translate(106, 336)" font-family="Segoe UI, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="600">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="250" height="38" rx="19" fill="#13161F" fill-opacity="0.92" stroke="#2D344C" stroke-width="1" />
+    <circle cx="22" cy="19" r="4.5" fill="#10B981" />
+    <text x="36" y="24" fill="#E5E7EB">NVIDIA NVAPI &amp; AMD ADL</text>
+
+    <!-- Pill 2 -->
+    <rect x="268" y="0" width="250" height="38" rx="19" fill="#13161F" fill-opacity="0.92" stroke="#2D344C" stroke-width="1" />
+    <circle cx="290" cy="19" r="4.5" fill="#6366F1" />
+    <text x="304" y="24" fill="#E5E7EB">10-Bant EQ + Masaüstü</text>
+
+    <!-- Pill 3 -->
+    <rect x="536" y="0" width="258" height="38" rx="19" fill="#13161F" fill-opacity="0.92" stroke="#2D344C" stroke-width="1" />
+    <circle cx="558" cy="19" r="4.5" fill="#F59E0B" />
+    <text x="572" y="24" fill="#E5E7EB">Windows Optimizasyon</text>
+
+    <!-- Pill 4 -->
+    <rect x="812" y="0" width="256" height="38" rx="19" fill="#13161F" fill-opacity="0.92" stroke="#2D344C" stroke-width="1" />
+    <circle cx="834" cy="19" r="4.5" fill="#38BDF8" />
+    <text x="848" y="24" fill="#E5E7EB">0 FPS Canlı Dashboard</text>
+  </g>
+</svg>
