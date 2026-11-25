@@ -1,0 +1,244 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 760" width="1280" height="760">
+  <defs>
+    <linearGradient id="cpuGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+    <linearGradient id="ramGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+    <linearGradient id="gpuGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+    <linearGradient id="eqFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6366F1" stop-opacity="0.38" />
+      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.02" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Obsidian Frame -->
+  <rect width="1280" height="760" rx="16" fill="#0B0C10" />
+  <rect x="1" y="1" width="1278" height="758" rx="15" fill="none" stroke="#222736" stroke-width="1.5" />
+
+  <!-- Window Title Bar -->
+  <rect x="1" y="1" width="1278" height="36" rx="15" fill="#0E1015" />
+  <rect x="1" y="20" width="1278" height="17" fill="#0E1015" />
+  <line x1="1" y1="37" x2="1279" y2="37" stroke="#222736" stroke-width="1" />
+  <circle cx="24" cy="19" r="6" fill="#6366F1" />
+  <text x="40" y="23" fill="#D1D5DB" font-family="Segoe UI, -apple-system, sans-serif" font-size="12.5" font-weight="600">
+    Gaming Shortcuts — Control Hub
+  </text>
+  <g fill="#6B7280" font-family="Segoe UI, sans-serif" font-size="13">
+    <text x="1205" y="23">—</text>
+    <text x="1232" y="23">□</text>
+    <text x="1256" y="23">✕</text>
+  </g>
+
+  <!-- Top Live Status Bar -->
+  <rect x="1" y="38" width="1278" height="54" fill="#0E1015" />
+  <line x1="1" y1="92" x2="1279" y2="92" stroke="#222736" stroke-width="1" />
+
+  <!-- Status Pills -->
+  <g transform="translate(20, 49)" font-family="Segoe UI, -apple-system, sans-serif" font-size="12.5" font-weight="600">
+    <rect x="0" y="0" width="210" height="32" rx="16" fill="#181D2C" stroke="#222736" />
+    <circle cx="16" cy="16" r="4.5" fill="#10B981" />
+    <text x="30" y="20.5" fill="#F3F4F6">Aktif: cs2.exe</text>
+
+    <rect x="224" y="0" width="350" height="32" rx="16" fill="#13161F" stroke="#222736" />
+    <circle cx="240" cy="16" r="4.5" fill="#10B981" />
+    <text x="254" y="20.5" fill="#F3F4F6">Ses: Razer Barracuda X · %80</text>
+
+    <rect x="588" y="0" width="290" height="32" rx="16" fill="#13161F" stroke="#222736" />
+    <circle cx="604" cy="16" r="4.5" fill="#F59E0B" />
+    <text x="618" y="20.5" fill="#F3F4F6">Mikrofon: Açık · %120 ⚡</text>
+
+    <rect x="892" y="0" width="346" height="32" rx="16" fill="#13161F" stroke="#222736" />
+    <circle cx="908" cy="16" r="4.5" fill="#6366F1" />
+    <text x="922" y="20.5" fill="#F3F4F6">EQ (Oyun): CS2 Ayak Sesi</text>
+  </g>
+
+  <!-- Left Sidebar -->
+  <rect x="1" y="93" width="256" height="666" fill="#0E1015" />
+  <line x1="257" y1="93" x2="257" y2="759" stroke="#222736" stroke-width="1" />
+
+  <!-- Sidebar Brand -->
+  <rect x="22" y="114" width="34" height="34" rx="8" fill="#181D2C" stroke="#6366F1" stroke-width="1.5" />
+  <path d="M 32 135 L 38 124 L 44 135 M 34.5 131.5 L 41.5 131.5" fill="none" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" />
+  <text x="68" y="128" fill="#F3F4F6" font-family="Segoe UI, -apple-system, sans-serif" font-size="14" font-weight="700">CONTROL HUB</text>
+  <text x="68" y="145" fill="#6366F1" font-family="Segoe UI, -apple-system, sans-serif" font-size="9.5" font-weight="700" letter-spacing="1.2">DISPLAY · AUDIO · SYSTEM</text>
+
+  <!-- Sidebar Nav Items -->
+  <g transform="translate(18, 178)" font-family="Segoe UI, -apple-system, sans-serif" font-size="13.5">
+    <text x="18" y="26" fill="#8B93A7">Oyunlar &amp; Vibrance</text>
+    <text x="18" y="72" fill="#8B93A7">Equalizer &amp; DSP</text>
+    <text x="18" y="118" fill="#8B93A7">Ses &amp; Kısayollar</text>
+    <text x="18" y="164" fill="#8B93A7">Performans &amp; Bellek</text>
+    <text x="18" y="210" fill="#8B93A7">Ağ &amp; Sunucu Ping</text>
+    <text x="18" y="256" fill="#8B93A7">Windows Optimizasyon</text>
+
+    <!-- Active Item: Canlı Dashboard -->
+    <rect x="0" y="280" width="220" height="40" rx="8" fill="#181D2C" />
+    <rect x="0" y="287" width="3.5" height="26" rx="2" fill="#6366F1" />
+    <text x="18" y="305" fill="#F3F4F6" font-weight="700">Canlı Dashboard</text>
+  </g>
+
+  <!-- Sidebar Footer Action -->
+  <rect x="18" y="592" width="220" height="40" rx="8" fill="#1B1F2B" stroke="#2A3147" />
+  <text x="128" y="617" text-anchor="middle" fill="#F3F4F6" font-family="Segoe UI, -apple-system, sans-serif" font-size="12.5" font-weight="600">
+    ⇄  Kulaklık / Hoparlör
+  </text>
+  <text x="20" y="660" fill="#8B93A7" font-family="Segoe UI, -apple-system, sans-serif" font-size="11.5">
+    Sistem tepsisinde 7/24
+  </text>
+  <text x="20" y="677" fill="#8B93A7" font-family="Segoe UI, -apple-system, sans-serif" font-size="11.5">
+    düşük bellek ile çalışır.
+  </text>
+  <rect x="20" y="704" width="36" height="18" rx="9" fill="#6366F1" />
+  <circle cx="46" cy="713" r="6.5" fill="#FFFFFF" />
+  <text x="66" y="717" fill="#E5E7EB" font-family="Segoe UI, -apple-system, sans-serif" font-size="12">PC Açılınca Başlat</text>
+
+  <!-- Main Content Header -->
+  <text x="288" y="132" fill="#F3F4F6" font-family="Segoe UI, -apple-system, sans-serif" font-size="22" font-weight="700">
+    Canlı Sistem &amp; Oyun Dashboard
+  </text>
+  <text x="288" y="156" fill="#8B93A7" font-family="Segoe UI, -apple-system, sans-serif" font-size="13">
+    2. monitörde FPS düşürmeden mikrofon, EQ, fan, sıcaklık ve bellek durumunu anlık takip edin.
+  </text>
+  <text x="1046" y="135" text-anchor="end" fill="#38BDF8" font-family="Segoe UI, -apple-system, sans-serif" font-size="16" font-weight="700">
+    23:42:18
+  </text>
+  <rect x="1064" y="110" width="186" height="36" rx="8" fill="#1B1F2B" stroke="#2A3147" />
+  <text x="1157" y="133" text-anchor="middle" fill="#F3F4F6" font-family="Segoe UI, -apple-system, sans-serif" font-size="12.5" font-weight="700">
+    🖥  Monitör 2'ye Taşı
+  </text>
+
+  <!-- ========================================================= -->
+  <!-- ROW 1: 3 HERO CARDS (y = 182, h = 278, w = 308, gap = 19) -->
+  <!-- ========================================================= -->
+
+  <!-- CARD 1: MİKROFON -->
+  <g transform="translate(288, 182)">
+    <rect width="308" height="278" rx="12" fill="#0F201D" stroke="#10B981" stroke-width="1.8" />
+    <text x="18" y="30" fill="#8B93A7" font-family="Segoe UI, -apple-system, sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.8">MİKROFON</text>
+    <text x="290" y="30" text-anchor="end" fill="#F59E0B" font-family="Segoe UI, -apple-system, sans-serif" font-size="13.5" font-weight="700">%120 ⚡</text>
+
+    <text x="18" y="96" fill="#10B981" font-family="Segoe UI, -apple-system, sans-serif" font-size="27" font-weight="800">● AÇIK</text>
+    <text x="18" y="128" fill="#9CA3AF" font-family="Segoe UI, -apple-system, sans-serif" font-size="12.5">Ses iletimi aktif (+4.0 dB Boost)</text>
+    <text x="18" y="148" fill="#9CA3AF" font-family="Segoe UI, -apple-system, sans-serif" font-size="12.5">Susturmak için karta tıklayın</text>
+
+    <text x="18" y="204" fill="#8B93A7" font-family="Segoe UI, -apple-system, sans-serif" font-size="12">Razer Barracuda X (Mikrofon)</text>
+    <rect x="18" y="220" width="272" height="40" rx="8" fill="#1B1F2B" stroke="#2E364D" />
+    <text x="154" y="245" text-anchor="middle" fill="#F3F4F6" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="700">
+      Mikrofonu Sustur
+    </text>
+  </g>
+
+  <!-- CARD 2: EQ PROFİLİ -->
+  <g transform="translate(615, 182)">
+    <rect width="308" height="278" rx="12" fill="#13161F" stroke="#222736" stroke-width="1.2" />
+    <text x="18" y="30" fill="#8B93A7" font-family="Segoe UI, -apple-system, sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.8">EQ PROFİLİ</text>
+    <rect x="196" y="12" width="94" height="25" rx="12.5" fill="#1B1F2B" stroke="#2A3147" />
+    <circle cx="212" cy="24.5" r="4" fill="#6366F1" />
+    <text x="224" y="29" fill="#F3F4F6" font-family="Segoe UI, -apple-system, sans-serif" font-size="11.5" font-weight="700">Oyun</text>
+
+    <text x="18" y="66" fill="#F3F4F6" font-family="Segoe UI, -apple-system, sans-serif" font-size="15.5" font-weight="700">
+      CS2 Ayak Sesi (Footstep)
+    </text>
+
+    <!-- EQ Canvas Box -->
+    <rect x="18" y="84" width="272" height="176" rx="9" fill="#0E1016" stroke="#202534" />
+    <line x1="30" y1="124" x2="278" y2="124" stroke="#1A1E2C" stroke-dasharray="3,3" />
+    <line x1="30" y1="172" x2="278" y2="172" stroke="#2A3044" />
+    <line x1="30" y1="220" x2="278" y2="220" stroke="#1A1E2C" stroke-dasharray="3,3" />
+
+    <!-- 10-band curve: -4,-3,-1,+1,+3,+5,+7,+6,+3,+1 -->
+    <path d="M 38 192 C 58 188, 76 178, 96 170 C 116 160, 134 148, 154 134 C 174 118, 192 108, 212 114 C 232 122, 250 144, 270 162 L 270 172 L 38 172 Z" fill="url(#eqFill)" />
+    <path d="M 38 192 C 58 188, 76 178, 96 170 C 116 160, 134 148, 154 134 C 174 118, 192 108, 212 114 C 232 122, 250 144, 270 162" fill="none" stroke="#6366F1" stroke-width="2.5" stroke-linecap="round" />
+    <g fill="#13161F" stroke="#38BDF8" stroke-width="2">
+      <circle cx="38" cy="192" r="3.5" />
+      <circle cx="64" cy="186" r="3.5" />
+      <circle cx="90" cy="174" r="3.5" />
+      <circle cx="116" cy="162" r="3.5" />
+      <circle cx="142" cy="144" r="3.5" />
+      <circle cx="168" cy="126" r="3.5" />
+      <circle cx="194" cy="112" r="3.5" />
+      <circle cx="220" cy="118" r="3.5" />
+      <circle cx="246" cy="142" r="3.5" />
+      <circle cx="270" cy="162" r="3.5" />
+    </g>
+  </g>
+
+  <!-- CARD 3: OYUN & SES ÇIKIŞI -->
+  <g transform="translate(942, 182)">
+    <rect width="308" height="278" rx="12" fill="#13161F" stroke="#222736" stroke-width="1.2" />
+    <text x="18" y="30" fill="#8B93A7" font-family="Segoe UI, -apple-system, sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.8">OYUN &amp; SES ÇIKIŞI</text>
+    <text x="18" y="64" fill="#10B981" font-family="Segoe UI, -apple-system, sans-serif" font-size="16" font-weight="700">● cs2.exe</text>
+    <text x="18" y="88" fill="#38BDF8" font-family="Segoe UI, -apple-system, sans-serif" font-size="12.5">Digital Vibrance: %68 (Oyun)</text>
+    <line x1="18" y1="106" x2="290" y2="106" stroke="#222736" />
+
+    <text x="18" y="130" fill="#F3F4F6" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="700">Razer Barracuda X (2.4)</text>
+    <text x="18" y="152" fill="#8B93A7" font-family="Segoe UI, -apple-system, sans-serif" font-size="12.5">Ses Seviyesi: %80</text>
+
+    <rect x="18" y="168" width="272" height="36" rx="8" fill="#1B1F2B" stroke="#2A3147" />
+    <text x="154" y="191" text-anchor="middle" fill="#F3F4F6" font-family="Segoe UI, -apple-system, sans-serif" font-size="12.5" font-weight="700">
+      ⇄  Kulaklık / Hoparlör
+    </text>
+
+    <rect x="18" y="218" width="272" height="40" rx="20" fill="#1B1F2B" stroke="#2A3147" />
+    <circle cx="38" cy="238" r="4.5" fill="#10B981" />
+    <text x="52" y="243" fill="#F3F4F6" font-family="Segoe UI, -apple-system, sans-serif" font-size="12.5" font-weight="700">
+      Güç: Nihai Performans
+    </text>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- ROW 2: 3 TELEMETRY CARDS (y = 480, h = 250, w = 308)       -->
+  <!-- ========================================================= -->
+
+  <!-- CARD 4: CPU -->
+  <g transform="translate(288, 480)">
+    <rect width="308" height="250" rx="12" fill="#13161F" stroke="#222736" stroke-width="1.2" />
+    <text x="18" y="30" fill="#8B93A7" font-family="Segoe UI, -apple-system, sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.8">İŞLEMCİ (CPU)</text>
+    <text x="18" y="102" fill="#10B981" font-family="Segoe UI, -apple-system, sans-serif" font-size="44" font-weight="800">%24</text>
+
+    <rect x="18" y="128" width="272" height="12" rx="6" fill="#1E2330" />
+    <rect x="18" y="128" width="76" height="12" rx="6" fill="url(#cpuGrad)" />
+
+    <text x="18" y="172" fill="#8B93A7" font-family="Segoe UI, -apple-system, sans-serif" font-size="12.5">16 mantıksal çekirdek</text>
+    <text x="18" y="192" fill="#8B93A7" font-family="Segoe UI, -apple-system, sans-serif" font-size="12.5">Win32 GetSystemTimes (0 FPS yükü)</text>
+  </g>
+
+  <!-- CARD 5: RAM -->
+  <g transform="translate(615, 480)">
+    <rect width="308" height="250" rx="12" fill="#13161F" stroke="#222736" stroke-width="1.2" />
+    <text x="18" y="30" fill="#8B93A7" font-family="Segoe UI, -apple-system, sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.8">BELLEK (RAM)</text>
+    <text x="18" y="102" fill="#38BDF8" font-family="Segoe UI, -apple-system, sans-serif" font-size="44" font-weight="800">%42</text>
+
+    <rect x="18" y="128" width="272" height="12" rx="6" fill="#1E2330" />
+    <rect x="18" y="128" width="118" height="12" rx="6" fill="url(#ramGrad)" />
+
+    <text x="18" y="166" fill="#F3F4F6" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="700">13.4 / 32.0 GB kullanılıyor</text>
+    <rect x="18" y="188" width="272" height="40" rx="8" fill="#1B1F2B" stroke="#10B981" stroke-width="1.2" />
+    <text x="154" y="213" text-anchor="middle" fill="#10B981" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="700">
+      Standby RAM Temizle
+    </text>
+  </g>
+
+  <!-- CARD 6: GPU & FAN -->
+  <g transform="translate(942, 480)">
+    <rect width="308" height="250" rx="12" fill="#13161F" stroke="#222736" stroke-width="1.2" />
+    <text x="18" y="30" fill="#8B93A7" font-family="Segoe UI, -apple-system, sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.8">EKRAN KARTI &amp; FAN</text>
+    <text x="18" y="54" fill="#8B93A7" font-family="Segoe UI, -apple-system, sans-serif" font-size="12.5" font-weight="700">NVIDIA GeForce RTX</text>
+
+    <text x="18" y="102" fill="#10B981" font-family="Segoe UI, -apple-system, sans-serif" font-size="34" font-weight="800">58°C</text>
+    <text x="290" y="98" text-anchor="end" fill="#F3F4F6" font-family="Segoe UI, -apple-system, sans-serif" font-size="16" font-weight="700">Yük: %64</text>
+
+    <rect x="18" y="128" width="272" height="12" rx="6" fill="#1E2330" />
+    <rect x="18" y="128" width="174" height="12" rx="6" fill="url(#gpuGrad)" />
+
+    <text x="18" y="168" fill="#38BDF8" font-family="Segoe UI, -apple-system, sans-serif" font-size="14" font-weight="700">Fan: %45 (1850 RPM)</text>
+    <text x="18" y="196" fill="#8B93A7" font-family="Segoe UI, -apple-system, sans-serif" font-size="13">VRAM: 4.8 / 8.0 GB</text>
+  </g>
+</svg>
